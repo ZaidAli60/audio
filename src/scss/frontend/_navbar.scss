@@ -1,0 +1,101 @@
+// @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* Define a variable for the Fira Code font */
+// $fira-code-font: 'Montserrat';
+
+
+/* Apply the font family to the custom-navbar class */
+
+
+.custom-navbar {
+
+    transition: box-shadow 0.3s ease-in-out;
+    z-index: 900 !important;
+
+    .shadow {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-btn {
+
+        background: linear-gradient(90deg, #26F7C5 0%, #8895FA 100%);
+        color: white;
+        border: 0px;
+    }
+
+    // .loginbtn {
+    //     background-color: transparent;
+    //     border-color: rgb(39 38 43);
+    // }
+
+
+}
+
+.ant-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgba(41, 152, 152, 1) !important;
+
+    row-gap: 5px !important;
+}
+
+.ant-dropdown-menu .ant-dropdown-menu-item:hover {
+    background: rgba(0, 0, 0, 0.15) !important;
+}
+
+.ant-dropdown-menu-item {
+    color: #fff !important;
+}
+
+.ant-avatar {
+    cursor: pointer;
+}
+
+.ant-avatar:hover svg,
+.ant-avatar.ant-dropdown-open svg {
+    fill: rgba(41, 152, 152, 1);
+}
+
+// .ant-modal-root {
+//     .ant-modal-mask {
+//         z-index: 1110;
+//     }
+
+//     .ant-modal-wrap {
+//         z-index: 1110;
+//     }
+// }
+
+// .account-modal {
+//     .ant-modal {
+//         border-radius: 6px !important;
+//     }
+
+//     .ant-modal-content {
+//         background-color: #202020 !important;
+//         color: white;
+
+//         .ant-modal-close-x {
+//             color: white;
+//         }
+
+//         .ant-modal-header {
+//             .ant-modal-title {
+//                 background-color: #202020;
+//                 color: white;
+//             }
+//         }
+//     }
+// }
+
+// .dashboard.dark {
+//     .ant-drawer-close {
+//         color: white !important;
+//     }
+
+// }
+
+// .ant-drawer {
+//     z-index: 1100 !important;
+// }

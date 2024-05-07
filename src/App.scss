@@ -1,0 +1,117 @@
+.dashboard.light {
+    background-color: #fcfcfc;
+    color: black !important;
+}
+
+.dashboard.dark {
+    background-color: #121212;
+    color: #fcfcfc;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./scss/bootstrap";
+@import "./scss//frontend/navbar";
+@import "./scss/dashboard";
+@import "./scss/screen-loader";
+@import "./scss/buttons";
+@import "./scss/utilities";
+@import "./scss/frontend/home";
+@import "./scss/frontend/faqs";
+@import "./scss/frontend/footer";
+@import "./scss/frontend/404page";
+@import "./scss/Authentication/Login.scss";
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.ant-layout {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+main {
+    flex: 1 0 auto;
+}
+
+@media (min-width: 1920px) {
+    .custom-xxl-padding {
+        padding-left: 10rem !important;
+        padding-right: 10rem !important;
+    }
+}
+
+
+canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// .audio {
+//     position: fixed;
+//     left: 10px;
+//     bottom: 20px;
+//     width: calc(100% - 20px);
+// }
+
+.text-input {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    width: calc(100% - 20px);
+}
+
+// #visualiser canvas {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+// }
+
+
+
+@media (min-width: 992px) {
+
+    /* Large screens and above */
+    .w-50-lg {
+        width: 50%;
+    }
+}
+
+.ant-input {
+    background: transparent;
+    color: white;
+}
+
+.ant-input::placeholder {
+    color: #323743;
+    /* Change the color to your desired color */
+}
+
+.ant-select-selection-placeholder {
+    color: #323743 !important;
+}
+
+.ant-select-selection-item {
+    color: white;
+
+}
+
+.custom-btn {
+    font-family: "DrukWide-Medium-Web, sans-serif" !important;
+    background: linear-gradient(90deg, #26F7C5 0%, #8895FA 100%);
+    color: white;
+}
